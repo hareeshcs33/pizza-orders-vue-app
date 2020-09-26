@@ -55,7 +55,7 @@ export default {
         console.log("Status updated", order);
         setTimeout(() => {
             statusDiv.style.bottom = "-50px";
-        }, 50000);
+        }, 5000);
     },
     isDisabled(item){
         // disable the change status if its last item in the reference list
